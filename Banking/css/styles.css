@@ -1,0 +1,107 @@
+@media(max-width: 510px){
+    .headerText div{
+        font-size: 0.8em !important;
+    }
+}
+@media(max-width: 400px){
+    .headerText div{
+        font-size: 0.6em !important;
+    }
+}
+@media(max-width: 300px){
+    .headerText div{
+        font-size: 0.55em !important;
+    }
+}
+
+@media(min-width:1200px){
+    .cardContainerYellow p, .cardContainerDark p{
+        font-size: large;
+        margin-top: 30px;
+    }
+    .cardContainerYellow h2, .cardContainerDark h2{
+        margin-bottom: 30px;
+    }
+}
+
+body{
+    height: 2000px;
+}
+.headerMain{
+    padding-top: 90px;
+    background-image: url('/img/header_background_sphere.jpg');
+}
+
+.sectionLight{
+    background-color: white;
+    height:700px;
+}
+
+.sectionDark{
+    background-color: #202020;
+    height:590px;
+}
+
+.headerText{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.headerText h1{
+    font-size:2em;
+    margin-top: 30px;
+}
+
+.headerText div{
+    font-size:1em;
+    width: 30em;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.learnMoreButton{
+    margin-top: 10px;
+    background-color: none;
+    border-radius: 50px;
+    border-color: #ffdf6c;
+    height: 2.7em;
+    width: 10em;
+    color:white;
+}
+.learnMoreButton:hover{
+    background-color: #ffdf6c;
+    color:rgb(21, 21, 21);
+}
+
+.cardContainerYellow{
+    background-color: #ffdf6c; 
+    border:1px solid white; 
+    position:relative;
+}
+
+.cardContainerYellow a{
+    color:#684cff;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.cardContainerDark{
+    background-color: #181a19; 
+    border:1px solid white; 
+    position:relative;
+    color: white;
+}
+
+
+.cardContainerDark a, .cardContainerYellow a {
+    -webkit-transition:font-size 0.5s;
+    transition: font-size 0.5s;
+    font-size: 19px;
+    color:#684cff;
+    text-decoration: none;
+}
+
+.cardContainerDark a:hover,.cardContainerYellow a:hover {
+    font-size: 20px; 
+}
